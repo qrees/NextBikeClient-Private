@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="MainTheme"
+        parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <item name="listPreferredItemHeight">64dip</item>
+        <item name="listPreferredItemHeightSmall">64dip</item>
+        <item name="listPreferredItemHeightLarge">?android:attr/listPreferredItemHeight</item>
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <!--<item name="android:windowBackground">@color/primary_dark</item>-->
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+
+        <item name="actionBarStyle">@style/AtionBarTheme</item>
+    </style>
+
+    <style name="AtionBarTheme" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!--<item name="android:windowBackground">@color/primary_semi_dark</item>-->
+        <!--<item name="android:colorBackground">@color/primary_semi_dark</item>-->
+        <item name="background">@color/primary_semi_dark</item>
+        <item name="android:background">@color/primary_semi_dark</item>
+    </style>
+
+    <style name="textAppearanceListItem" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+    <style name="textAppearanceListItemSecondary" parent="@style/textAppearanceListItem">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+</resources>

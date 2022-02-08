@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Rowery Miejskie</string>
+    <string name="account">Konto:</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="bike_id">Numer roweru</string>
+    <string name="bike_rented">Rower został wypożyczony</string>
+    <string name="cancel">Anuluj</string>
+    <string name="credits">Stan konta:</string>
+    <string name="credits_added">Konto zasilone</string>
+    <string name="invalid_bike_id">Błędny numer roweru</string>
+    <string name="invalid_station_id">Błędny numer stacji</string>
+    <string name="login">Login</string>
+    <string name="login_success">Udane logowanie</string>
+    <string name="logout">Wyloguj</string>
+    <string name="no_network">Brak sieci</string>
+    <string name="password">Hasło</string>
+    <string name="phone_number">Numer telefonu</string>
+    <string name="pin">PIN</string>
+    <string name="please_login">Podaj swoje dane logowania</string>
+    <string name="rent">Wypożycz</string>
+    <string name="rented">Rower</string>
+    <string name="return_">Zwrot</string>
+    <string name="select_station">Wybierz stację</string>
+    <string name="station_id">Numer stacji</string>
+    <string name="username">Nazwa użytkownika</string>
+    <string name="Account">Konto</string>
+    <string name="History">Historia</string>
+    <string name="Map">Mapa</string>
+    <string name="Rent">Wypożycz</string>
+    <string name="date">Data:</string>
+    <string name="code">Kod:</string>
+    <string name="bike_already_rented">Już wypożyczony</string>
+    <string name="bike_foreign">Obcy</string>
+    <string name="bike_limit">Limit osiągnięty</string>
+    <string name="bike_locked">Zablokowany</string>
+    <string name="bike_low_credits">Brak środków</string>
+    <string name="bike_not_available_over_night">Tylko w dzień</string>
+    <string name="bike_occupied">Zajęty</string>
+    <string name="bike_ok">Dostępny</string>
+    <string name="bike_state">Stan roweru</string>
+    <string name="bike_unknown">Nieznany</string>
+    <string name="Barcode">Skanuj kod</string>
+    <string name="bikes">Rowery: %s</string>
+</resources>

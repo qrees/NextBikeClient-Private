@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+    <string name="bike_list_url" translatable="false">https://beta.nextbike.net/api/getBikeList.xml?&amp;apikey=%%s&amp;place=%%s</string>
+    <string name="flex_zone_url" translatable="false">https://beta.nextbike.net/4com/geojson/flexzone_all.json</string>
+    <string name="web_view_url" translatable="false">https://webview.nextbike.net/#/station/%%s</string>
+</resources>

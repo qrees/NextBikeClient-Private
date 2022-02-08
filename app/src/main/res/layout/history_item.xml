@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/history_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        >
+        <TextView
+            android:id="@+id/history_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Test"
+            android:textAppearance="@style/textAppearanceListItem"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/history_date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/history_text"
+            android:layout_toRightOf="@id/history_text"
+            android:layout_marginRight="5dp" />
+
+        <TextView
+            android:id="@+id/history_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/history_date_text"
+            android:textStyle="bold"
+            android:text="Test"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:layout_marginRight="5dp"
+            android:layout_alignTop="@+id/history_date_text"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="@string/code"
+            android:id="@+id/code_text"
+            android:layout_marginRight="5dp"
+            android:layout_alignLeft="@+id/history_date_text"
+            android:layout_below="@+id/history_date_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:text="Small Text"
+            android:id="@+id/code"
+            android:textStyle="bold"
+            android:layout_toRightOf="@+id/code_text"
+            android:typeface="monospace"
+            android:layout_alignTop="@+id/code_text"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/credit_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:minHeight="?attr/listPreferredItemHeightSmall"
+        android:paddingRight="16dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:gravity="center_vertical" />
+
+</RelativeLayout>

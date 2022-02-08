@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:clipToPadding="false"
+             android:padding="15dp">
+
+    <RelativeLayout
+        android:id="@+id/rentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:elevation="5dp"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView1"
+            style="@style/PaddedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/bike_id"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <EditText
+            android:id="@+id/bikeId"
+            style="@style/PaddedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/textView1"
+            android:elegantTextHeight="false"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="5">
+
+            <requestFocus/>
+        </EditText>
+
+        <TextView
+            android:id="@+id/bike_state_text"
+            style="@style/PaddedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="false"
+            android:layout_below="@+id/bikeId"
+            android:text="@string/bike_state"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/bike_state"
+            style="@style/PaddedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bike_state_text"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/bike_state_text"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+        <Button
+            android:id="@+id/rent_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="false"
+            android:layout_below="@+id/bike_state_text"
+            android:text="@string/rent"/>
+
+
+    </RelativeLayout>
+
+    <!--<TextView-->
+        <!--android:id="@+id/bikesRented"-->
+        <!--style="@style/PaddedText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/rentContainer"-->
+        <!--android:text="@string/bikes_rented"-->
+        <!--android:textAppearance="?android:attr/textAppearanceLarge"/>-->
+
+    <!--<ListView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/bikesRented"/>-->
+
+</RelativeLayout>

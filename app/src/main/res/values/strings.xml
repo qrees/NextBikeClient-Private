@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">Cycle Nearby</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Drawer is open</string>
+    <string name="drawer_close">Drawer is closed</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">Login</string>
+    <string name="login_success">Login successful</string>
+    <string name="cancel">Cancel</string>
+    <string name="logout">Logout</string>
+    <string name="credits">Credits:</string>
+    <string name="account">Account:</string>
+    <string name="credits_added">Credits added</string>
+    <string name="rented">Bike</string>
+    <string name="bike_id">Bike number</string>
+    <string name="please_login">Please provide your NextBike login details</string>
+    <string name="phone_number">Phone number</string>
+    <string name="pin">PIN</string>
+    <string name="rent">Rent</string>
+    <string name="return_">Return</string>
+    <string name="select_station">Select station</string>
+    <string name="no_network">No network</string>
+    <string name="station_id">Station ID</string>
+    <string name="invalid_station_id">Invalid station id</string>
+    <string name="invalid_bike_id">Invalid bike id</string>
+    <string name="bike_rented">Bike rented successfully</string>
+    <string name="Map">Map</string>
+    <string name="Account">Account</string>
+    <string name="History">History</string>
+    <string name="Rent">Rent</string>
+    <string name="date">Date:</string>
+    <string name="code">Code:</string>
+    <string name="bike_state">Bike state</string>
+    <string name="bike_ok">Available</string>
+    <string name="bike_already_rented">Rented</string>
+    <string name="bike_unknown">Unknown</string>
+    <string name="bike_locked">Locked</string>
+    <string name="bike_limit">Rent limit</string>
+    <string name="bike_occupied">Occupied</string>
+    <string name="bike_low_credits">Low credits</string>
+    <string name="bike_not_available_over_night">Not over night</string>
+    <string name="bike_foreign">Foreign</string>
+    <string name="Barcode">Scan Barcode</string>
+    <string name="bikes">Bikes: %s</string>
+    <string name="bikes_rented">Bikes rented:</string>
+    <string name="rentail_failed">Rental Failed</string>
+</resources>

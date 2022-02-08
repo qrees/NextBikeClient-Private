@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="PaddedText" parent="@android:style/TextAppearance.Large">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+
+    <!--<style name="history_default">-->
+        <!--<item name="android:textColor">#ffffff</item>-->
+    <!--</style>-->
+    <style name="history_default" parent="android:Theme">
+        <item name="android:textViewStyle">@style/DefaultTextStyle</item>
+    </style>
+    <style name="history_rented" parent="android:Theme">
+        <item name="android:textViewStyle">@style/RendedTextStyle</item>
+    </style>
+
+    <style name="DefaultTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">#0F0</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="RendedTextStyle" parent="android:Widget.TextView">
+        <item name="android:textColor">#F00</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="warning">
+        <item name="android:background">#F88</item>
+    </style>
+    <style name="history_item_rented">
+
+    </style>
+</resources>
